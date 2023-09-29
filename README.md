@@ -33,4 +33,17 @@ Este texto esta en **_negrita y cursiva_**
 2. Segunda opción de menú
 3. Tercera opción de menú
 
+```
+<html>
+<head>
+    <title>Titulo de documento</title>
+</head>
+<body>
+    <p>Esto es un parrafo</p>
+</body>
+</html>
+```
+
+[Enlace](https://github.com/JoelBarrantess "Enlace a mi user de github")
+
 ![Imagen perro](Foto.PNG)
