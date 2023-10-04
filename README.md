@@ -106,6 +106,7 @@ Como añadir un [*Enlace?*](https://github.com/JoelBarrantess "Enlace a mi user 
 ```
 [Texto](URL "Texto cuando pones el mouse por encima")
 ```
+Como añadir una *Imagen* como esta?
 
 ![Imagen](imagen.png "Imagen de teemo")
 
