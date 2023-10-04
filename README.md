@@ -46,4 +46,13 @@ Este texto esta en **_negrita y cursiva_**
 
 [Enlace](https://github.com/JoelBarrantess "Enlace a mi user de github")
 
-![Imagen perro](Foto.PNG)
+![Imagen](imagen.png "Imagen de teemo")
+
+
+| Primera Col. | Segunda Col. | 3 Col. |
+|---------------|:------------:|---------:|
+| Col 2 es | Centrada | 35€ |
+| Col 3 es | Derecha | 134€ |
+| Estilo cebra | gris | blanco |
+| Clase | ASIX1 | M4 |
+
