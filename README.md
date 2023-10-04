@@ -1,6 +1,6 @@
 # ASIX1M4UF1_A3_Apuntes
 
-Primer repositorio ASIX 1
+Aqui iré escribiendo los apuntes de la asignatura M4 
 
 ## Primer Capitulo: MARKDOWN
 
@@ -62,6 +62,9 @@ Como se ~~Tacha~~ el texto?
 | Tabla | Como | Esta? |
 
 Las lineas del medio ayudan a formatear la tabla, si solo pones guiones se orienta a la derecha, si lo cierras entre dos puntos, estará centrado, si pones solo a la derecha, se pondra a la derecha
+
+Importante mencionar que si pones varias filas, va cambiando de color (cebra style) y la primera fila, se pondra como encabezado y se pondra el texto en negrita
+
 ```
 Para crear una tabla, solo hay que escribir asi
 | Titulo 1 | Titulo 2 | Titulo 3 |
@@ -110,14 +113,6 @@ Como añadir un [*Enlace?*](https://github.com/JoelBarrantess "Enlace a mi user 
  ![Texto opcional](Imagen.png "Texto pasar mouse por encima")
 ```
 
-
-
-| Primera Col. | Segunda Col. | 3 Col. |
-|---------------|:------------:|---------:|
-| Col 2 es | Centrada | 35€ |
-| Col 3 es | Derecha | 134€ |
-| Estilo cebra | gris | blanco |
-| Clase | ASIX1 | M4 |
 
 -[ ] Opción A
 
