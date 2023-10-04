@@ -61,9 +61,11 @@ Como se ~~Tacha~~ el texto?
 |--------|:---------:|---------:|
 | Tabla | Como | Esta? |
 
+Las lineas del medio ayudan a formatear la tabla, si solo pones guiones se orienta a la derecha, si lo cierras entre dos puntos, estará centrado, si pones solo a la derecha, se pondra a la derecha
 ```
 Para crear una tabla, solo hay que escribir asi
 | Titulo 1 | Titulo 2 | Titulo 3 |
+|--------|:---------:|---------:|
 | Texto 1 | Texto 2 | Texto 3 |
 ```
 
