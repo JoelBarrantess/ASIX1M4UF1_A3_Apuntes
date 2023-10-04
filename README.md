@@ -56,3 +56,9 @@ Este texto esta en **_negrita y cursiva_**
 | Estilo cebra | gris | blanco |
 | Clase | ASIX1 | M4 |
 
+-[ ] Opción A
+
+-[X] Opción B
+
+-[ ] Opción C
+
