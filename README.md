@@ -116,11 +116,93 @@ Como añadir una *Imagen* como esta?
 ```
 
 
--[ ] Opción A
+[ ] Opción A
 
--[X] Opción B
+[X] Opción B
 
--[ ] Opción C
+[ ] Opción C
 
 No se formatea esto :(
 
+
+## Segundo Capitulo: HTML
+
+Se refiere a (Hypertext Markup Language), es un lenguaje de marcas, no es de programación solo renderiza etiquetas
+
+#### Como funciona HTML?
+
+Las etiquetas tienen que tener apertura y cierre, como en el ejemplo de abajo
+
+```
+<p> Conetenido </p>
+```
+
+Podemos modificar el comportamiento de una etiqueta para que se vea diferente, como una clase, que nos ayuda a la hora de clasificarlos
+
+```
+<p class="Valor"> Conetenido </p>
+```
+
+Se pueden anidar etiquetas (añadir etiquetas dentro de otras), por ejemplo como poner texto en negrita
+
+```
+<p> <strong> Conetenido </strong> </p>
+```
+
+#### Etiqueta IMG
+
+La etiqueta IMG sirve para introducir imagenes, funciona con "href"
+
+```
+<img href="./imagen.png"></img> 
+```
+
+#### Como separar lineas
+
+Se hace simplemente con la etiqueta <br>, no se cierra, es de un solo uso
+
+```
+<br>
+```
+
+#### Como crear un documento HTML
+
+Primero una vez ya tenemos el documento creado, hay varias etiquetas, pero escribiendo "!" o "html:5", nos escribira el inicio del documento solo
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayuda</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
+
+Un documento HTML siempre tiene que empezar por `<!Doctype HTML>` ya que perimte que se renderize en todos los navegadores, en la siguiente linea, escogemos el idioma de HTML, en nuestro caso, usamos ingles ("en").
+
+Luego, tenemos la etiqueta `<Head>`, aqui se determinan todo lo no visible para el usuario en la pagina web
+Aque dentro entran los metadatos por ejemplo, en la cuarta linea podemos ver el charset y el viewport.
+
+Además, tenemos la etiqueta `<Title>`, la cual indica el titulo del documento arriba en las pestañas, se le podria añadir un icono con la etiqueta `<favicon>`
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ayuda</title>
+</head>
+```
+
+Dentro de la etiqueta `<body>`, va todo el documento
+
+```
+<body>
+</body>
+```
