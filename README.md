@@ -159,10 +159,15 @@ La etiqueta IMG sirve para introducir imagenes, funciona con "href"
 
 #### Como separar lineas
 
-Se hace simplemente con la etiqueta <br>, no se cierra, es de un solo uso
+Se hace simplemente con la etiqueta `<br>`, no se cierra, es de un solo uso
 
 ```
 <br>
+```
+También tenemos la etiqueta `<hr>`, que es lo mismo, pero con una linea que los separa
+
+```
+<hr>
 ```
 
 #### Como crear un documento HTML
@@ -205,4 +210,82 @@ Dentro de la etiqueta `<body>`, va todo el documento
 ```
 <body>
 </body>
+```
+
+Como hacer una lista?
+
+Lista ordenada (Etiqueta `<ol>`)
+```
+<ol>
+    <li>Primer elemento</li>
+    <li>segundo elemento</li>
+    <li>Tercer elemento</li>
+</ol>
+```
+Lista desordenada (Etiqueta `<ul>`)
+```
+<ul>
+    <li>Primer elemento</li>
+    <li>segundo elemento</li>
+    <li>Tercer elemento</li>
+</ul>
+```
+Como poner un enlace?
+```
+<a href="https://www.google.com" alt="Por aqui se va a google" target="_blank">Esto es un enlace a google</a>
+```
+El alt sirve para mostrar texto cuando tienes el raton encima y target dice en este caso que se abre en otra pagina
+
+Y para poner una cita es con la etiqueta `<blockquote>`
+```
+<blockquote>Esto es una cita</blockquote>
+```
+
+Para intoducir comentarios es con `<!-- comentario -->`
+```
+<!-- Esto es un comentario -->
+```
+
+Las rutas absolutas son las rutas empezando desde la raiz y las rutas relativas es de las que empiezan desde algún lado
+
+![Imagen](https://i.ytimg.com/vi/h3EmdNFnRac/maxresdefault.jpg "imagen sobre las rutas")
+
+Como se hace una tabla en HTML?
+
+Con la etiqueta `<Table>`, `<Thead>`, `tbody` y `<Tfoot>`
+
+```
+<table border="1">
+        <thead>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>
+                <th>Tiempo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1r</td>
+                <td>Juan</td>
+                <td>2:00</td>
+            </tr>
+            <tr>
+                <td>2rd</td>
+                <td>Juan</td>
+                <td>3:00</td>
+            </tr>
+            <tr>
+                <td>3th</td>
+                <td>Pepe</td>
+                <td>4:00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Puesto</th>
+                <th>Atleta</th>
+                <th>Tiempo</th>
+            </tr>
+        </tfoot>
+    </table>
 ```
