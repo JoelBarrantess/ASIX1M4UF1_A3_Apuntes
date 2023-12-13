@@ -188,6 +188,8 @@ Primero una vez ya tenemos el documento creado, hay varias etiquetas, pero escri
 </html>
 ```
 
+#### Etiquetas HTML
+
 Un documento HTML siempre tiene que empezar por `<!Doctype HTML>` ya que perimte que se renderize en todos los navegadores, en la siguiente linea, escogemos el idioma de HTML, en nuestro caso, usamos ingles ("en").
 
 Luego, tenemos la etiqueta `<Head>`, aqui se determinan todo lo no visible para el usuario en la pagina web
@@ -254,6 +256,8 @@ Como se hace una tabla en HTML?
 
 Con la etiqueta `<Table>`, `<Thead>`, `tbody` y `<Tfoot>`
 
+Las rows con `tr` y las columnas 
+
 ```
 <table border="1">
         <thead>
@@ -288,4 +292,26 @@ Con la etiqueta `<Table>`, `<Thead>`, `tbody` y `<Tfoot>`
             </tr>
         </tfoot>
     </table>
+```
+
+## Tercer Capitulo: CSS
+
+Hay tres maneras de aplicar el cocigo CSS en HTML
+
+1. en la propia etiqueta (Inline)
+
+2. En el head (Inserción interna)
+
+3. En un archivo externo enlazado con la pagina (Inserción externa)
+
+Para linkear la pagina al css se usa la etiqueta link
+
+#### Divs en HTML
+
+un div sirve para distribuir y organizar el codigo html en general, tambien ayuda para clasificarlos en contenedores que pueden englobar una clase o un ID y asi ayuda a hacer el css y el html mas simple
+
+```
+<div>
+    <p>contendio con margen, relleno y borde </p>
+</div>
 ```
