@@ -294,6 +294,18 @@ Las rows con `tr` y las columnas
     </table>
 ```
 
+
+#### Divs en HTML
+
+un div sirve para distribuir y organizar el codigo html en general, tambien ayuda para clasificarlos en contenedores que pueden englobar una clase o un ID y asi ayuda a hacer el css y el html mas simple de entender para una persona
+
+```
+<div>
+    <p>contendio del div </p>
+</div>
+```
+
+
 ## Tercer Capitulo: CSS
 
 Hay tres maneras de aplicar el cocigo CSS en HTML
@@ -306,12 +318,76 @@ Hay tres maneras de aplicar el cocigo CSS en HTML
 
 Para linkear la pagina al css se usa la etiqueta link
 
-#### Divs en HTML
+```
+<link rel="stylesheet" href="./css/style.css" type="text/css">
+```
 
-un div sirve para distribuir y organizar el codigo html en general, tambien ayuda para clasificarlos en contenedores que pueden englobar una clase o un ID y asi ayuda a hacer el css y el html mas simple
+## Selectores CSS
+En css hay diferentes tipos de selectores:
+
+#### Selector de tipo
+Selecciona todos los elementos de un tipo específico.
+```
+p {
+    color: blue;
+}
+```
+Este ejemplo selecciona todos los elementos <p> y les asigna un color azul.
+
+#### Selector de clase
+Selecciona elementos que tienen un atributo de clase específico.
+```
+.destacado {
+    font-weight: bold;
+}
+```
+Este selector selecciona todos los elementos con la clase "destacado" y les aplica negrita.
+
+#### Selector de ID
+Selecciona un elemento con un ID específico.
+```
+#encabezado {
+    background-color: gray;
+}
+```
+Este selector selecciona el elemento con el ID "encabezado" y le asigna un color de fondo gris.
+
+#### Selector universal
+Selecciona todos los elementos en la página.
+```
+* {
+    margin: 0;
+    padding: 0;
+}
+```
+Este selector selecciona todos los elementos y establece los márgenes y el relleno a cero.
+
+#### Selector descendente
+Selecciona un elemento que es descendiente de otro.
+```
+article p {
+    color: green;
+}
+```
+Este selector selecciona todos los elementos `<p>` que son descendientes de un elemento `<article>` y les asigna un color verde.
+
+
+## Flex Responsive
+
+Con un diseño responsive en una pagina web, se puede conseguir que cambie todo sobre la pagina en el momento que el tamaño de la pantalla es diferente, para hacer esto, se usa el `@media`
 
 ```
-<div>
-    <p>contendio con margen, relleno y borde </p>
-</div>
+.columna {
+    flex: 1;
+    /* Inicialmente, cada columna ocupa el 33% del ancho disponible */
+    width: 33.33%;
+}
+
+/* @media query para pantallas más pequeñas */
+@media (max-width: 600px) {
+    .columna {
+        /* En pantallas más pequeñas, las columnas ocupan el 100% del ancho */
+        width: 100%;
+    }
+}
 ```
